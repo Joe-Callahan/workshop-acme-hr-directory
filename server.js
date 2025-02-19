@@ -12,3 +12,7 @@ app.get('/api/employees', (req, res) => {
 app.get('/api/departments', (req, res) => {
   res.send('Return array of departments');
 });
+
+app.listen(3000, () => {
+  console.log(`listening on PORT 3000`);
+});

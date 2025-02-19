@@ -1,7 +1,27 @@
 {
   "dependencies": {
     "express": "^4.21.2",
+    "nodeman": "^1.1.2",
     "nodemon": "^3.1.9",
     "pg": "^8.13.3"
-  }
+  },
+  "name": "acme_hr_directory",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joe-Callahan/workshop-acme-hr-directory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joe-Callahan/workshop-acme-hr-directory/issues"
+  },
+  "homepage": "https://github.com/Joe-Callahan/workshop-acme-hr-directory#readme",
+  "description": ""
 }
